@@ -1,0 +1,50 @@
+header {
+    width: 100vw;
+    height: 10vh;
+
+    position: fixed;
+    z-index: 5;
+
+    display: flex;
+    align-items: center;
+
+    background: none;
+}
+
+#header-container {
+    width: 84vw;
+    max-width: 950px;
+
+    margin: 0px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img {
+    width: 200px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    text-decoration: none;
+}
+
+header nav ul li {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+header nav ul li a:hover {
+    transition: transform 0.3s;
+    border-bottom: 2px solid #CC3E18;
+    color: #CC3E18;
+}

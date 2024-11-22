@@ -1,0 +1,114 @@
+main {
+    height: 100vh;
+    width: 100vw;
+}
+
+#inicio {
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    background-image: url(../assets/Inicio/Sec1/Times\ Square.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: saturate(0);
+    
+    transition: 1s;
+}
+
+#inicio:hover {
+    filter: saturate(1);
+
+    transition: 1s;
+}
+
+#postagens-section {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    background-color: red;
+    background-image: url(../assets/Inicio/Sec2/Filter.jpg);
+    /*background: linear-gradient(to right, #b84444, #e0754a);*/
+}
+
+.postagens-container {
+    width: 84vw;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 0 auto;
+    
+    justify-content: space-evenly;
+}
+
+.postagem {
+    width: 45%;
+
+    display: flex;
+    
+    gap: 15px;
+    background-color: white;
+}
+
+.postagem img {
+    width: 20%;
+    object-fit: cover;
+}
+
+.postagem-text {
+    padding: 20px;
+}
+
+#conteudos {
+    margin-top: 50px;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 38px;
+    margin: 50px 0;
+}
+
+.descubra-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+}
+
+.conteudo img {
+   width: 100%;
+   height: 220px;
+   border-radius: 20px;
+}
+
+.conteudo h3 {
+    padding-top: 30px;
+    padding-bottom: 12px;
+}
+
+
+
+
+
+
+
+
