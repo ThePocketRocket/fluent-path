@@ -1,7 +1,9 @@
 footer {
     width: 100vw;
     height: 300pxpx;
-    background-color: #444;
+    background: 
+        url(../assets/8ca50fac8bdafff0f45e70f58dd991cd.png) repeat,
+        #1e1e1e
 }
 
 .sec-footer {
@@ -64,6 +66,7 @@ footer {
     font-size: 1.2rem;
     margin-bottom: 10px;
     text-align: center;
+    color: rgb(150, 150, 150);
 }
 
 .footer-section ul {
@@ -86,7 +89,8 @@ footer {
     margin-top: 20px;
     text-align: center;
     font-size: 0.9rem;
-    border-top: 1px solid #000000;
+    border-top: 1px solid beige;
+    color: beige;
     padding-top: 10px;
     padding-bottom: 5px;
 }
