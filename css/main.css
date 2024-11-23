@@ -1,5 +1,4 @@
 main {
-    height: 100vh;
     width: 100vw;
 }
 
@@ -82,6 +81,7 @@ main {
 .descubra-container {
     display: flex;
     flex-wrap: wrap;
+    height: 100vh;
     width: 100%;
     gap: 20px;
     justify-content: space-evenly;
