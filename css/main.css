@@ -35,10 +35,15 @@ main {
     flex-direction: column;
     justify-content: center;
 
-    background-color: red;
-    background-image: url(../assets/Inicio/Sec2/Filter.jpg);
-    /*background: linear-gradient(to right, #b84444, #e0754a);*/
+    background: 
+        url(../assets/Filtro.png) repeat,
+        #1e1e1e;
 }
+
+#postagens-section h1 {
+    color: white;
+}
+
 
 .postagens-container {
     width: 84vw;
@@ -70,6 +75,10 @@ main {
 }
 
 #conteudos {
+    background:
+        url(../assets/Filtro.png) repeat,
+        black;
+    
     margin-top: 50px;
 }
 
